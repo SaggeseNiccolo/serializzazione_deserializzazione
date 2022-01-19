@@ -5,11 +5,11 @@ import java.util.*;
 public class root {
 
     private int annoDiInizio;
-    private Aula aula;
+    private Aula aula = new Aula();
     private String classe;
     private int numeroFinestre;
     private String specializzazione;
-    private ArrayList<Studente> studenti;
+    private ArrayList<element> studenti;
 
     public int getAnnoDiInizio() {
         return this.annoDiInizio;
@@ -51,11 +51,11 @@ public class root {
         this.specializzazione = specializzazione;
     }
 
-    public ArrayList<Studente> getStudenti() {
+    public ArrayList<element> getStudenti() {
         return this.studenti;
     }
 
-    public void setStudenti(ArrayList<Studente> studenti) {
+    public void setStudenti(ArrayList<element> studenti) {
         this.studenti = studenti;
     }
 
