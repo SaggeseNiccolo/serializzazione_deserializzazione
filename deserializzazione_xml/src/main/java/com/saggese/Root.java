@@ -2,14 +2,14 @@ package com.saggese;
 
 import java.util.*;
 
-public class root {
+public class Root {
 
     private int annoDiInizio;
     private Aula aula = new Aula();
     private String classe;
     private int numeroFinestre;
     private String specializzazione;
-    private ArrayList<element> studenti;
+    private ArrayList<Element> studenti;
 
     public int getAnnoDiInizio() {
         return this.annoDiInizio;
@@ -51,11 +51,11 @@ public class root {
         this.specializzazione = specializzazione;
     }
 
-    public ArrayList<element> getStudenti() {
+    public ArrayList<Element> getStudenti() {
         return this.studenti;
     }
 
-    public void setStudenti(ArrayList<element> studenti) {
+    public void setStudenti(ArrayList<Element> studenti) {
         this.studenti = studenti;
     }
 

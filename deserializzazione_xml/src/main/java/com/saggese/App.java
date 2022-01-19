@@ -15,7 +15,7 @@ public class App {
             throws JsonParseException, JsonMappingException, IOException {
         File file = new File("deserializzazione_xml/classe.xml");
         XmlMapper xmlMapper = new XmlMapper();
-        root value = xmlMapper.readValue(file, root.class);
+        Root value = xmlMapper.readValue(file, Root.class);
         System.out.println("La classe " + value.getClasse() + value.getSpecializzazione() + " si trova nell'aula "
                 + value.getAula().getNome() + " ed è composta dai seguenti studenti:");
         for (int i = 0; i < value.getStudenti().size(); i++) {

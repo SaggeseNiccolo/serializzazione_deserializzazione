@@ -1,6 +1,6 @@
 package com.saggese;
 
-public class element {
+public class Element {
 
     private int annoDiNascita;
     private String cognome;
