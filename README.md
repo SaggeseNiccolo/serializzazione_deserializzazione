@@ -1,9 +1,9 @@
-#*** DESERIALIZZAZIONE XML ***
+# *** DESERIALIZZAZIONE XML ***
 La classe 5BIA si trova nell'aula 14CE ed è composta dai seguenti studenti:
 - Bianchi
 - Hu
 
-#*** Serializzazione XML ***
+# *** Serializzazione XML ***
 <Root>
   <annoDiInizio>0</annoDiInizio>
   <aula>
@@ -15,7 +15,7 @@ La classe 5BIA si trova nell'aula 14CE ed è composta dai seguenti studenti:
   <specializzazione/>
 </Root>
 
-#*** Serializzazione JSON ***
+# *** Serializzazione JSON ***
 {
   "annoDiInizio" : 0,
   "aula" : {
